@@ -59,6 +59,16 @@ background-color: var(--color-bg);
    display: grid;
    grid-template-columns: repeat(2,1fr);
    align-items: center;
+   position: relative;
+}
+.services::after{
+   content: '';
+   position: absolute;
+   top: 12.25rem;
+   left: -3%;
+   background-image: url('../img/services-man.png');
+   width: 30.438rem;
+   height: 47.563rem;
 }
 .services__item{
    width: 19.938rem;
