@@ -9,6 +9,7 @@ body{
 .container{
    max-width: 1100px;
    margin: 0 auto;
+   height: 100%;
 }
 
 
@@ -39,7 +40,34 @@ background-color: var(--color-bg);
 .header__nav>ul>li>a{
    font-size: 1.5rem;
 }
+.main{
+    background-image: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.688rem;
+    max-width: 100%;
+}
+.container__main{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.main>.container>.container__main>.intro__text{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 0.625rem;
 
+}
+.intro__text>p{
+    font-size: 64px;
+}
+.intro__text>h2{
+    font-size: 48px;
+}
 
 
 
