@@ -68,6 +68,35 @@ background-color: var(--color-bg);
 .intro__text>h2{
     font-size: 48px;
 }
+.main__content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.main__content>.text__wrapper>h3{
+    color: #39B7C8;
+}
+.text__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.main__content a{
+    color: black;
+}
+.google__maps{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.google_wrapper{
+    display: flex;
+}
 
 
 
